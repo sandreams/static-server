@@ -1,0 +1,28 @@
+body {
+  position: relative;
+  min-height: 100vh;
+}
+img {
+  max-width: 160px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+th {
+  background: #c0c0c0;
+  color: #333;
+}
+table tr:nth-child(2n) {
+  background: #cce4fc;
+}
+.student-data {
+  margin-top: 20px;
+}
